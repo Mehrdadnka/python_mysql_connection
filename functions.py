@@ -31,10 +31,10 @@ dataBase.close()
 #insert into database
 def insert_to_db():
     add_home = """
-            INSERT INTO data(user,password)
+            INSERT INTO data(user,pass)
             VALUES(%s,%s);
             """
     
-    cursur.execute(add_home,(data['user'],data['password']))
+    cursur.execute(add_home,(data['user'],data['pass']))
     dataBase.commit()
     cursor.close()
