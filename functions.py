@@ -8,7 +8,7 @@ def init_db():
     new_db = """
             CREATE DATABASE pytst;
             
-            """
+             """
     #new table in database
     new_table = """
             CREATE TABLE IF NOT EXISTS data(
