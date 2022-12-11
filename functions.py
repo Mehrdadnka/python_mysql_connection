@@ -25,7 +25,7 @@ def init_db():
     dataBase.commit()
     cursor.close()
 
-init_db() #calling the function and creat a new database
+init_db() #calling the function and create a new database
 dataBase.close()
 
 #insert into database
