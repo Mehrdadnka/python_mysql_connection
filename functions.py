@@ -33,7 +33,7 @@ def insert_to_db():
     add_home = """
             INSERT INTO data(user,pass)
             VALUES(%s,%s);
-            """
+               """
     
     cursur.execute(add_home,(data['user'],data['pass']))
     dataBase.commit()
